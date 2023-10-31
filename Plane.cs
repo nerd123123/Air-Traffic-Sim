@@ -1,15 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using controls;
-using airport;
+using Controls;
+using Airport;
 
-namespace plane
+namespace Plane
 {
-  public class flight
+  public class Flight
   {
     //public string? flightnum;
-    public flight()
+    public Flight()
     {
       
     }
