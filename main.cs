@@ -1,13 +1,13 @@
 using System;
-using controls;
-using plane;
-using airport;
+using Controls;
+using Plane;
+using Airport;
 public class Program
 {
   public static void Main()
   {
     Intro();
-    controls.User.Input.Display();
+    Controls.User.Input.Display();
   }
   public static void Intro()
   {
