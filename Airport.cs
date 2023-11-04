@@ -7,6 +7,7 @@ namespace Airport
   public static class Management
   {
     public static List<string> Flights = new List<string>();
+    public static int TotalFlights = 0;
     public static List<string> Requests = new List<string>();
   }
   public class Hangar
@@ -16,5 +17,9 @@ namespace Airport
     {
       
     }
+  }
+  public static class Airlines
+  {
+    public static String[] AirlineNames = {"BLAH","ASDF","DING","WHAT"};
   }
 }
